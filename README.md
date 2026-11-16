@@ -71,5 +71,5 @@ pip install -r requirements.txt
 3. **Estrategia de evaluación** — seis bloques cronológicos de validación y seis meses finales reservados como prueba.
 4. **Modelos candidatos** — regresiones (lineal, cuadrática, cúbica, con/sin estacionalidad), promedios móviles simples y ponderados, y configuraciones ETS.
 5. **Evaluación y comparación** — selección por RMSE promedio de validación; MAE y sMAPE como complemento.
-6. **Diagnóstico y pronóstico** — pruebas sobre residuos de la mejor regresión y pronóstico de seis meses con el modelo ganador reajustado.
+6. **Diagnóstico y pronóstico** — pruebas de residuos de la mejor regresión y del modelo ETS ganador, y pronóstico de seis meses con intervalos de predicción del 95 %.
 7. **Conclusión y limitaciones**.
