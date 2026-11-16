@@ -68,8 +68,10 @@ pip install -r requirements.txt
 
 1. **Carga y validación de datos** — verifica columnas, duplicados y faltantes; no imputa valores en silencio.
 2. **Exploración básica** — descriptivos y trayectoria de la serie.
-3. **Estrategia de evaluación** — seis bloques cronológicos de validación y seis meses finales reservados como prueba.
-4. **Modelos candidatos** — regresiones (lineal, cuadrática, cúbica, con/sin estacionalidad), promedios móviles simples y ponderados, y configuraciones ETS.
-5. **Evaluación y comparación** — selección por RMSE promedio de validación; MAE y sMAPE como complemento.
-6. **Diagnóstico y pronóstico** — pruebas de residuos de la mejor regresión y del modelo ETS ganador, y pronóstico de seis meses con intervalos de predicción del 95 %.
-7. **Conclusión y limitaciones**.
+3. **Estacionariedad de la serie** — ADF y KPSS en nivel y primera diferencia, con lectura conjunta impresa.
+4. **Estrategia de evaluación** — seis bloques cronológicos de validación y seis meses finales reservados como prueba.
+5. **Modelos candidatos** — regresiones (lineal, cuadrática, cúbica, con/sin estacionalidad), promedios móviles simples y ponderados, y configuraciones ETS.
+6. **Evaluación y comparación** — todos los modelos en una única tabla; selección por RMSE promedio de validación y evaluación única en la prueba final.
+7. **Diagnóstico de residuos** — batería de pruebas de clase sobre la mejor regresión y sobre el modelo ETS ganador.
+8. **Pronóstico de seis meses** — valores puntuales con intervalos de predicción del 95 %.
+9. **Conclusión y limitaciones**.
